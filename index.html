@@ -3,12 +3,17 @@
 <head>
     <title>ВМЕСТЕ ПОД ПАРУСОМ</title>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
  </head>
 <body>
     <header class="main-header">
     <nav class="main-nav">
         <a class="logo" href="#">
-            <img src="img/placeholder.svg" alt="Логотип">
+            <img src="img/logotype.svg" width=64 height=68 
+            alt="Логотип">
         </a>
         <ul class="nav-list">
             <li> <a href="#">Наш клуб</a></li>
@@ -20,39 +25,98 @@
         </ul>
     
         <a class="input" href="#">
-            <img src="img/placeholder.svg" alt="Вход">
+            <img src="img/account.svg" width=36 height=36 
+            alt="Вход">
         </a>
+
     </nav>
    </header>
 
 <main>
 <section class="block-hero">
     <h1>Вместе под парусом</h1>
-    <img src="img/placeholder.svg" alt="Вместе под парусом">
+    <img src="img/saleboat.jpg" width=1170 height=466
+    alt="Вместе под парусом">
 </section>
 
 <article class="block-article">
-    <p>20 октября - 19 апреля</p>
-    <h2>Стань частью команды</h2>
+    <p class="dates">20 октября - 19 апреля</p>
+    <h2 class="under_line_color">Стань частью команды</h2>
     <p>Если вы давно хотели попробовать себя в яхтинге – сейчас самое лучшее время! Мы набираем команду будущих шкиперов. За 6 вы станете настоящим капитаном и уже в следующем сезоне сможете самостоятельно выйти в море!
     </p>
-    <img src="img/placeholder.svg" alt="Стань частью команды">
+    <img src="img/man.jpg" width=600 height=262
+    alt="Стань частью команды">
 </article>
 
 
 <article class="block-article">
-<p>16 июля - 23 июля</p>
-<h2>Рожденные в воде</h2>
+<p class="dates">16 июля - 23 июля</p>
+<h2 class="under_line_color">Рожденные в воде</h2>
 <p>Подарите детям настоящее приключение! День с морскими пиратами на корабле – это лучшая команда, веселые аниматоры, игры, соревнования, работа в команде и, конечно, море!
 </p>
-<img src="img/placeholder.svg" alt="Рожденные в воде">
+<img src="img/children.jpg" width=600 height=252 alt="Рожденные в воде">
 </article>
 
 
-<section class="contacts">
+<section class="news">
+    <h2 class="under_line_color">Новости</h2>
+    <article class="post">
+    <figure>
+    <img src="img/winner.jpg" width=770 height=301 alt="Победитель регаты">
+    <figcaption class="winner_caption">Победитель регаты шкипер Иван Кулешов</figcaption>
+    </figure>
+    
+    <h3>Итоги регаты Sochi Race Week 2020</h3>
+    <p>
+        Свыше сотни участников собирались на побережье Сочи, чтобы посоревноваться за главный приз. В соревнованиях приняли участие как новички, так и <span class="strikethrough">профессионалы</span> моряки, имеющие за плечами немалый опыт. 
+    </p>
+    <p>
+        На протяжении всего плавания нас сопровождало солнце прекрасная погода, в отдельные дни ветер до 20 узлов. Регата была прекрасно организована, 135 яхтсменов, 7 экипажей, 9 стран участниц, 4 гоночных дня, 3 дивизиона.
+    </p>
+    <h4>Команды-участники:</h4>
+    <ul class="commands">
+        <li class="commands-item">Восток 35</li>
+        <li class="commands-item">Fortune Sailing</li>
+        <li class="commands-item">Сибирь</li>
+        <li class="commands-item">Левиафан</li>
+        <li class="commands-item">Черный лебедь</li>
+        <li class="commands-item">White Pepper</li>
+        <li class="commands-item">Pearl</li>
+        
+    </ul>
+    <p>
+        Чемпионом регаты Sochi Race Week 2020 стала команда Fortune Sailing, в прошлом году остановившаяся в одном шаге от победы, а в этом сезоне опередившая ближайшего соперника — экипаж «Восток 35» — на 12 баллов 5 баллов.
+    </p>
+    <p>   
+
+    <strong class="under_line_color_left"> 
+          Мы в команде очень дружны и понимаем друг друга без слов, думаю, 
+          поэтому мы и победили
+        </strong>
+    </p>
+
+    <p >
+        Поздравляем победителей и ждем все участников снова на осенних регатах! 
+    </p>
 
     
-        <h2>Контакты</h2>
+    <img src="img/author.jpg" width=60 height=60 alt="Артем Колесников">
+
+    <p class="author">
+        <a href="#">Артем Колесников</a>
+        <time datetime="2021-06-20">20.06.2021</time>
+    </p>
+    <a class="share" href="#">
+         <img src="img/share.svg" width=26 height=22 alt="Share icon">
+    </a>
+
+</article>
+</section>
+
+<section class="contacts">
+    <img src="img/map.jpg" width=670 height=351 alt="Мы на карте">
+    
+        <h2 class="under_line_color">Контакты</h2>
         <ul contacts-list>
             <li><h3>Адрес:</h3>
                 <p>г. Сочи, ул. Бзугу, 9</p>
@@ -69,20 +133,21 @@
         <li>
             <h3>Мы в социальных сетях:</h3>
                 <ul class="social-list">
-                    <li class="social-list-item"><a href="#"><img src="img/placeholder.svg" alt="Facebook"></a></li>
-                    <li class="social-list-item"><a href="#"><img src="img/placeholder.svg" alt="Twitter"></a></li>
-                    <li class="social-list-item"><a href="#"><img src="img/placeholder.svg" alt="Instagram"></a></li>
+                    <li class="social-list-item"><a href="#"><img src="img/facebook.svg" width=40 height=40 alt="Facebook"></a></li>
+                    <li class="social-list-item"><a href="#"><img src="img/twitter.svg" width=40 height=40 alt="Twitter"></a></li>
+                    <li class="social-list-item"><a href="#"><img src="img/instagram.svg" width=40 height=40 alt="Instagram"></a></li>
                 </ul>
         </li>
         </ul>
-    <img src="img/placeholder.svg" alt="Мы на карте">
+    
 </section>
 
 </main>
 <footer class="main-footer">
 
 <a class="logo" href="#">
-        <img src="img/placeholder.svg" alt="Логотип">
+    <img src="img/logotype.svg" width=64 height=68 
+    alt="Логотип">
  </a>
     <p><a class="footer-logo" href="#">Политика конфиденциальности</a></p>
     <p>Яхтклуб ©2020 Все права защищены </p>
