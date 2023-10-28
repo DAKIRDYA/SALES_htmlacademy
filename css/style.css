@@ -9,6 +9,9 @@ body
     font-weight: 400;
     line-height: 24px; /* 150% */
 
+    margin:0 auto;
+    padding:0;
+
 }
 li
 {
@@ -30,6 +33,7 @@ li
     font-style: italic;
     font-weight: 400;
     line-height: 60px; /* 136.364% */
+    text-transform: uppercase;
 }
 .dates{
     font-size: 14px;
@@ -158,6 +162,165 @@ li
   color: #8693a4;
     
 }
+/*Header*/
+.main-header{
+    width:1280px;
+    margin:0 auto 40px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.main-nav{
+    width: 1170px;
+    padding:0;
+    margin:0px auto;
+    display:flex;
+    align-self: center;
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 0;
+    margin-right: 471px;
+}
+
+.nav-list{
+    width: 559px;
+    margin:0;
+    padding:0;
+    margin-right:40px;
+}
+
+main{
+    width:1280px;
+    margin:0 auto;
+    padding:0;
+
+}
+/*Main - Block Hero*/
+.block-hero{
+    width: 1170px;
+    margin:0 auto 120px auto;
+}
+.block-hero h1{
+    margin:0 auto 40px 0;
+    ;
+}
+/*Main - Block article*/
+.block-article{
+    width: 1030px;
+    margin:0 auto 100px auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.block-article:last-of-type
+{
+    margin-bottom: 120px;
+}
+
+.article-1{
+    width: 400px;
+}
+.article-2{
+    width: 400px;
+    order:1;
+
+}
+/*.dates{
+    margin-bottom 20px;
+}*/
+.under_line_color{
+    margin-bottom:35px;
+    margin-top:0;
+}
+/*section NEWS*/
+.news{
+    width:770px;
+    margin:0 auto 120px auto;
+}
+
+
+.article p{
+    padding:0;
+
+}
+
+.news h2{
+    margin:0 auto 55px auto;
+    padding:0;
+}
+figure{
+    margin: 0 0 33px 0;
+}
+.contacts-all{
+width:340px;
+
+}
+.contacts{
+    width:1010px;
+    margin:0 auto 180px auto;
+    display: flex;
+}
+.contact-item{
+    font-size: 16px;
+  line-height: 22px;
+}
+.contact-item h3 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+.contacts img{
+    margin:0 100px 0 0;
+
+}
+.contacts-list li{
+    list-style-type: disc;
+}
+
+.social-list li{
+    list-style-type:circle
+}
+
+
+.main-footer{
+    width: 1170px;
+    margin:0 auto;
+    display:flex;
+    justify-content: space-between;
+}
+.logotype{
+    width: 175px;
+    margin-right: 125px;
+    
+}
+.footer-list{
+    width:870px;
+    display: flex;
+    
+    padding:0;
+    margin: 0 auto;
+}
+.footer-list-item{
+    width: 165px;
+    margin-left:0;
+    margin-right: 70px;
+}
+.footer-list-item h2{
+    padding:0
+}
+.footer-sublist{
+    padding:0
+}
+.footer-list-item:last-child()
+{
+    margin-right: 0;
+}
+
+
+
 
 
 

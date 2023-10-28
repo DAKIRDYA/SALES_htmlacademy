@@ -3,10 +3,15 @@
 <head>
     <title>ВМЕСТЕ ПОД ПАРУСОМ</title>
     <meta charset="UTF-8">
+    <link href="css/style.css" rel="stylesheet">
+    
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="css/outline.css" rel="stylesheet">
+    <link href="css/outline-settings.css" rel="stylesheet">
+
  </head>
 <body>
     <header class="main-header">
@@ -15,6 +20,7 @@
             <img src="img/logotype.svg" width=64 height=68 
             alt="Логотип">
         </a>
+        
         <ul class="nav-list">
             <li> <a href="#">Наш клуб</a></li>
             <li> <a href="#">Регаты</a></li>
@@ -28,7 +34,7 @@
             <img src="img/account.svg" width=36 height=36 
             alt="Вход">
         </a>
-
+        
     </nav>
    </header>
 
@@ -40,27 +46,32 @@
 </section>
 
 <article class="block-article">
+    <div class="article-1">
     <p class="dates">20 октября - 19 апреля</p>
     <h2 class="under_line_color">Стань частью команды</h2>
     <p>Если вы давно хотели попробовать себя в яхтинге – сейчас самое лучшее время! Мы набираем команду будущих шкиперов. За 6 вы станете настоящим капитаном и уже в следующем сезоне сможете самостоятельно выйти в море!
     </p>
+    </div>
     <img src="img/man.jpg" width=600 height=262
     alt="Стань частью команды">
 </article>
 
 
 <article class="block-article">
+<div class="article-2">
 <p class="dates">16 июля - 23 июля</p>
 <h2 class="under_line_color">Рожденные в воде</h2>
 <p>Подарите детям настоящее приключение! День с морскими пиратами на корабле – это лучшая команда, веселые аниматоры, игры, соревнования, работа в команде и, конечно, море!
 </p>
+</div>
 <img src="img/children.jpg" width=600 height=252 alt="Рожденные в воде">
+
 </article>
 
 
 <section class="news">
-    <h2 class="under_line_color">Новости</h2>
-    <article class="post">
+<h2 class="under_line_color">Новости</h2>
+<article class="post">
     <figure>
     <img src="img/winner.jpg" width=770 height=301 alt="Победитель регаты">
     <figcaption class="winner_caption">Победитель регаты шкипер Иван Кулешов</figcaption>
@@ -87,11 +98,12 @@
     <p>
         Чемпионом регаты Sochi Race Week 2020 стала команда Fortune Sailing, в прошлом году остановившаяся в одном шаге от победы, а в этом сезоне опередившая ближайшего соперника — экипаж «Восток 35» — на 12 баллов 5 баллов.
     </p>
-    <p>   
+    <p  class="under_line_color_left">   
 
-    <strong class="under_line_color_left"> 
+    <strong> 
           Мы в команде очень дружны и понимаем друг друга без слов, думаю, 
           поэтому мы и победили
+            
         </strong>
     </p>
 
@@ -115,22 +127,22 @@
 
 <section class="contacts">
     <img src="img/map.jpg" width=670 height=351 alt="Мы на карте">
-    
+     <div class="contacts-all">
         <h2 class="under_line_color">Контакты</h2>
-        <ul contacts-list>
-            <li><h3>Адрес:</h3>
+        <ul class="contacts-list">
+            <li class="contact-item"><h3>Адрес:</h3>
                 <p>г. Сочи, ул. Бзугу, 9</p>
             </li>
-        <li>
+        <li class="contact-item">
             <h3>Телефон:</h3>
             <p><a class="phone"  href="tel:8622620563">8 (622) 62-05-63</a></p>
         </li>
-        <li>
+        <li class="contact-item">
             <h3>E-mail:</h3>
             <p><a class="E-mail" href="e-mail:yachtclub-sochi@mail.ru">yachtclub-sochi@mail.ru</a></p>
         </li>
 
-        <li>
+        <li class="contact-item">
             <h3>Мы в социальных сетях:</h3>
                 <ul class="social-list">
                     <li class="social-list-item"><a href="#"><img src="img/facebook.svg" width=40 height=40 alt="Facebook"></a></li>
@@ -139,19 +151,20 @@
                 </ul>
         </li>
         </ul>
-    
+     </div>
 </section>
 
 </main>
 <footer class="main-footer">
-
-<a class="logo" href="#">
+    <div class="logotype">
+        <a class="logo" href="#">
+ 
     <img src="img/logotype.svg" width=64 height=68 
-    alt="Логотип">
- </a>
+        alt="Логотип">
+    </a>
     <p><a class="footer-logo" href="#">Политика конфиденциальности</a></p>
     <p>Яхтклуб ©2020 Все права защищены </p>
-
+    </div>
 <ul class="footer-list">
 <li class="footer-list-item"><h2>Компания</h2>
     <ul class="footer-sublist">
@@ -192,6 +205,7 @@
     </ul>
 </li>
 </ul>
+
 </footer>
 </body>
 </html>
